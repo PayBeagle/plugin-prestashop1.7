@@ -1,20 +1,12 @@
-# Example payment module
+# PayBeagle Hosted Payments for Prestashop.
 
 ## About
 
-This repository provides an example to kick start your own payment module development. For more information, head on to the [Official Developer Documentation][documentation].
+This Plugin allows merchant with a paybeagle account to process payments via PayBeagle Hosted Payments system.
 
-## Contributing
+## Installation 
 
-PrestaShop modules are open source extensions to the [PrestaShop e-commerce platform][prestashop]. Everyone is welcome and even encouraged to contribute with their own improvements!
+1) Upload the Zip file using the module manager,
+2) configure the plugin with your PayBeagle Merchant Credentials
+3) select Platform Live (secure.paybeagle.com) or Sandbox (sandboxx.paybeagle.com) 
 
-Just make sure to follow our [contribution guidelines][contribution-guidelines].
-
-## License
-
-This module is released under the [Academic Free License 3.0][AFL-3.0] 
-
-[documentation]: https://devdocs.prestashop.com/1.7/modules/
-[prestashop]: https://www.prestashop.com/
-[contribution-guidelines]: https://devdocs.prestashop.com/1.7/contribute/contribution-guidelines/project-modules/
-[AFL-3.0]: https://opensource.org/licenses/AFL-3.0
