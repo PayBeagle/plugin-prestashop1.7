@@ -66,7 +66,7 @@ if ((string) $_POST['acquirerResponseCode'] == "0"){
 			/* order has not got any status - still in cart */
 			/* MARK AS _PAYBEAGLE_PS_OS_PAYMENT_ */
 			//$paybeagle->validateOrder((int)$cart->id, 2, $cartPennies, $paybeagle->displayName, null, array(), NULL, false, $cart->secure_key);
-			$paybeagle->validateOrder((int)$cart->id, _PAYBEAGLE_PS_OS_PAYMENT_, $cartPennies, $paybeagle->displayName, null, array(), NULL, false, $cart->secure_key);
+			$paybeagle->validateOrder((int)$cart->id, _PS_OS_PAYMENT_, $cartPennies, $paybeagle->displayName, null, array(), NULL, false, $cart->secure_key);
 
 		} elseif($currentOrderState == _PS_OS_ERROR_){
 			/* order has error status - payment declined / payment process failed */
